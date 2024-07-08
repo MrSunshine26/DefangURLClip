@@ -1,0 +1,14 @@
+$clipboardcontent = Get-Clipboard
+
+function Defang-Url($url) {
+    $defangedUrl = $url -replace 'https?://', 'hxxps://'
+    $defangedUrl = $defangedUrl -replace '@', '[at]'
+    $defangedUrl = $defangedUrl -replace '\.', '[.]'
+    return $defangedUrl
+}
+
+$defangedContent = Defang-Url $clipboardContent
+
+Set-Clipboard -Value $defangedContent
+
+Write-Host "Defanged URL copied to clipboard: $defangedContent"
