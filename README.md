@@ -25,7 +25,7 @@ One shortcut is created on your desktop you want to edit the target in propertie
 ![image](https://github.com/MrSunshine26/DefangURLClip/assets/175027685/b12a55d3-a9e0-4717-a9b5-563407adb6c9)
 
 Enter this into target: 
-"powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Your\File\Path\DefangURLpowershell.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Your\File\Path\DefangURLpowershell.ps1"
 
 Select shortcut key of choice in properties.
 
