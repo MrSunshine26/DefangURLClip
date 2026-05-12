@@ -7,6 +7,11 @@ Simple powershell script that can defang both URL's and Emails directly in your 
 
 Levarages windows built in shortcuts to enable you to use it on the fly.
 
+# UPDATE!
+Added the ability to Re-Fang URLs/IPs from the clipboard from the same script. 
+This new code is in DefangRefang.ps1
+
+Operates the same as the origional script but will now refang a URL/IP/Email
 # How to setup?
 
 Copy the code from Powershell script into whatever PowerShell IDE you use. (I used ISE)
